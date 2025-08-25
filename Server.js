@@ -87,3 +87,10 @@ app.get("/allusers",async(req,res)=>{
 app.listen(5000,()=>{
     console.log("server start")
 })
+
+
+app.get("/",(req,res)=>{
+    res.json({
+        status:true
+    })
+})
