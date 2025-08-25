@@ -22,7 +22,7 @@ let Userschema=require("./Model/Users")
 //mongodb-----
 const { mongoose } = require("mongoose")
 
-mongoose.connect("mongodb://localhost:27017/project").then((res)=>{
+mongoose.connect("mongodb+srv://Ayush:6rsvhmvwisTn040c@cluster.fryf78w.mongodb.net/project").then((res)=>{
     console.log("mongodb connect")
 }).catch((err)=>{
     console.log(err)
